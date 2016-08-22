@@ -9,7 +9,7 @@ SCRIPT
 
 Vagrant.configure("2") do |config|
   config.vm.define "vm0" do |vm0|
-    vm0.vm.box = "ubuntu-14.04"
+    vm0.vm.box = "ubuntu-16.04"
     vm0.vm.network "private_network", ip: "192.168.40.4"
     vm0.vm.network "private_network", ip: "192.168.50.4"
     vm0.vm.network "private_network", ip: "192.168.55.4"
