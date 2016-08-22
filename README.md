@@ -3,7 +3,7 @@ PacketFence running inside a Docker container
 
 ## Image details
 
-This image is based on the [official ubuntu 12.04 (precise) docker hub image](https://hub.docker.com/_/ubuntu/).
+This image is based on the [official ubuntu 16.04 (xenial) docker hub image](https://hub.docker.com/_/ubuntu/).
 
 The recipe install packetfence, its dependencies and supervisor.
 
